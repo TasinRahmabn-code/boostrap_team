@@ -600,3 +600,89 @@ footer.site-footer {
 .footer-bottom-links a:hover {
     color: #29aae1;
 }
+
+/* Features css start */
+#features {
+    padding: 100px 0px;
+    background-color: #F8F9FA;
+}
+
+.feature-card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    width: 300px;
+    padding: 30px 20px;
+}
+
+.feature-card h3 {
+    font-size: 20px;
+    font-weight: 600;
+    color: #161C2D;
+    margin-top: 16px;
+    margin-bottom: 44px;
+}
+
+.feature-card p {
+    font-size: 16px;
+    font-weight: 400;
+    color: #707070;
+}
+
+/* Features css end */
+.counter {
+    background-color: #FEE74A;
+    padding: 48px;
+    margin-top: -60px;
+}
+
+.counter-state {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.counter-state h5 {
+    font-size: 40px;
+    font-weight: 600;
+    color: #161C2D;
+}
+
+.counter-state p {
+    font-size: 15px;
+    font-weight: 400;
+    color: #707070;
+}
+
+.trusted-company {
+    margin-top: 76px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-bottom: 100px;
+}
+
+.trusted-company h4 {
+    font-size: 20px;
+    font-weight: 600;
+    color: #161C2D;
+
+}
+
+.trusted-company p {
+    font-size: 14px;
+    font-weight: 400;
+    color: #707070;
+
+}
+
+.trusted-company h2 {
+    font-size: 48px;
+    font-weight: 600;
+    color: #161C2D;
+    width: 500px;
+}
