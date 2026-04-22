@@ -1,0 +1,76 @@
+:root {
+    --color-gol: #164289;
+    --color-sada: #ffff;
+    --color-bg: #0A3F87;
+    --font-title: "Open Sans", sans-serif;
+    --font-title2: "Quicksand", sans-serif;
+}
+
+.parent {
+    gap: 30px;
+    right: 5px;
+    gap: 30px;
+    position: relative; 
+    margin-top: -365px; 
+    z-index: 2;
+}
+
+.box {
+    background: var(--color-bg);
+    width: 100%;
+    height: 364px;
+}
+
+.star {
+    width: 120px;
+    padding-left: 50px;
+}
+
+.custom-ti {
+    font-family: var(--font-title);
+
+}
+
+.custom-trex-h3 {
+    font-family: var(--font-title);
+    background: var(--color-gol);
+    color: var(--color-sada);
+    border-radius: 30px;
+    height: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 4px 11px;
+}
+
+.imges {
+    width: 100%;      
+    height: 250px;     
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 24px;
+}
+
+.imges img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: all ease 0.5s;
+}
+
+.imges:hover img {
+    transform: scale(1.1);
+}
+
+.custom-p1{
+    font-weight: lighter;
+    font-size: 3px;
+}
+
+.custom-card1 p{
+    font-weight: lighter;
+}
+
+.parent .{}
