@@ -1,0 +1,14 @@
+@media (max-width: 576px) {
+
+    /* All Common Css Start */
+    .section-heading p {
+
+        width: 100% !important;
+    }
+
+}
+
+@media (max-width: 992px) {
+    /* All Common Css Start */
+
+}
