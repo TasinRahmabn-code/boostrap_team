@@ -1,5 +1,82 @@
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
 
+:root {
+    --color-gol: #164289;
+    --color-sada: #ffff;
+    --color-bg: #0A3F87;
+    --font-title: "Open Sans", sans-serif;
+    --font-title2: "Quicksand", sans-serif;
+}
+
+.parent {
+    gap: 30px;
+    right: 5px;
+    gap: 30px;
+    position: relative;
+    margin-top: -365px;
+    z-index: 2;
+}
+
+
+.box {
+    background: var(--color-bg);
+    width: 100%;
+    height: 364px;
+}
+
+.star {
+    width: 120px;
+    padding-left: 50px;
+}
+
+.custom-ti {
+    font-family: var(--font-title);
+
+}
+
+.custom-trex-h3 {
+    filter: drop-shadow(5px 5px 10px #000000);
+    font-family: var(--font-title);
+    background: var(--color-gol);
+    color: var(--color-sada);
+    border-radius: 30px;
+    height: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 4px 11px;
+}
+
+.imges {
+    width: 100%;
+    height: 250px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 24px;
+}
+
+.imges img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: all ease 0.5s;
+}
+
+.imges:hover img {
+    transform: scale(1.1);
+}
+
+.custom-p1 {
+    font-weight: lighter;
+    font-size: 3px;
+}
+
+.custom-card1 p {
+    font-weight: lighter;
+}
+
 .body {
     margin: 0;
     padding: 0;
@@ -14,6 +91,15 @@
 
 .logo-main {
     font-size: 22px;
+
+    :root {
+        --color-gol: #164289;
+        --color-sada: #ffff;
+        --color-bg: #0A3F87;
+        --font-title: "Open Sans", sans-serif;
+        --font-title2: "Quicksand", sans-serif;
+    }
+
     font-weight: 600;
 }
 
@@ -685,4 +771,337 @@ footer.site-footer {
     font-weight: 600;
     color: #161C2D;
     width: 500px;
+}
+
+
+
+.parent {
+    gap: 30px;
+    right: 5px;
+    gap: 30px;
+    position: relative;
+    margin-top: -365px;
+    z-index: 2;
+}
+
+.box {
+    background: var(--color-bg);
+    width: 100%;
+    height: 364px;
+}
+
+.star {
+    width: 120px;
+    padding-left: 50px;
+}
+
+.custom-ti {
+    font-family: var(--font-title);
+
+}
+
+.custom-trex-h3 {
+    filter: drop-shadow(5px 5px 10px #000000);
+    font-family: var(--font-title);
+    background: var(--color-gol);
+    color: var(--color-sada);
+    border-radius: 30px;
+    height: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 4px 11px;
+}
+
+.imges {
+    width: 100%;
+    height: 250px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 24px;
+}
+
+.imges img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: all ease 0.5s;
+}
+
+.imges:hover img {
+    transform: scale(1.1);
+}
+
+.custom-p1 {
+    font-weight: lighter;
+    font-size: 3px;
+}
+
+.custom-card1 p {
+    font-weight: lighter;
+}
+
+
+/* Tanvir */
+.parent {
+    gap: 30px;
+    right: 5px;
+    gap: 30px;
+    position: relative;
+    margin-top: -365px;
+    z-index: 2;
+}
+
+.box {
+    background: var(--color-bg);
+    width: 100%;
+    height: 364px;
+}
+
+.star {
+    width: 120px;
+    padding-left: 50px;
+}
+
+.custom-ti {
+    font-family: var(--font-title);
+
+}
+
+.custom-trex-h3 {
+    filter: drop-shadow(5px 5px 10px #000000);
+    font-family: var(--font-title);
+    background: var(--color-gol);
+    color: var(--color-sada);
+    border-radius: 30px;
+    height: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 4px 11px;
+}
+
+.imges {
+    width: 100%;
+    height: 250px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 24px;
+}
+
+.imges img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: all ease 0.5s;
+}
+
+.imges:hover img {
+    transform: scale(1.1);
+}
+
+.custom-p1 {
+    font-weight: lighter;
+    font-size: 3px;
+}
+
+.custom-card1 p {
+    font-weight: lighter;
+}
+
+/* DOLA CSS */
+
+/* All Common CSS Start */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #ffffff;
+    color: black;
+    font-family: "Poppins", sans-serif;
+}
+
+.cls-section-heading {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 24px;
+}
+
+.cls-section-heading h2.cls-section-title {
+    color: #ffffff;
+    font-size: 48px;
+    font-weight: 700;
+    font-family: "Quicksand", sans-serif;
+    line-height: 57px;
+    letter-spacing: -1.2px;
+    padding: 30px 0 20px 0;
+}
+
+.cls-section-heading p.cls-section-subtitle {
+    font-size: 17px;
+    line-height: 32px;
+    color: #ffffff;
+    font-weight: 400;
+    opacity: 0.75;
+    letter-spacing: -1.2px;
+    width: 614px;
+    text-align: center;
+}
+
+button.cls-btn-badge {
+    font-size: 12px;
+    line-height: 18px;
+    letter-spacing: 1px;
+    color: #ffffff;
+    background-color: #ffffff15;
+    border-radius: 30px;
+    padding: 4px 10px;
+    border: none;
+}
+
+/* Why Choose Us Section */
+#cls-why-choose {
+    background: #0a3f87;
+    padding: 100px 0;
+}
+
+.cls-main-title {
+    color: #ffffff;
+    font-family: "Quicksand", sans-serif;
+    font-weight: 700;
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+.cls-feature-checklist li {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    color: #f8f9fa;
+    padding-bottom: 15px;
+}
+
+.cls-feature-checklist li p {
+    margin-bottom: 0;
+    color: #ffffff;
+    opacity: 0.8;
+}
+
+.cls-feature-checklist li i {
+    color: #fee74a;
+    font-size: 15px;
+}
+
+/* Pricing Plans Start */
+#cls-pricing {
+    background: #0a3f87;
+    padding-bottom: 100px;
+}
+
+.cls-pricing-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #f8f9fa;
+    border-radius: 10px;
+    padding: 40px 20px;
+    text-align: center;
+    box-shadow: 0 2px 15px rgba(0, 0, 0, 0.1);
+}
+
+.cls-plan-type {
+    line-height: 25px;
+    color: #161c2d;
+    font-weight: 600;
+}
+
+.cls-price-box {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+}
+
+.cls-price-amount {
+    font-size: 64px;
+    font-weight: bold;
+    color: #212529;
+    margin: 10px 0;
+}
+
+button.cls-btn-pricing {
+    color: #ffffff;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 10px 30px;
+    background-color: #48b1fb;
+    border-radius: 30px;
+    border: none;
+    margin-top: 20px;
+}
+
+/* Testimonials Start */
+#cls-testimonials {
+    background-color: #ffffff;
+    padding: 100px 0;
+}
+
+#cls-testimonials .cls-section-title {
+    color: #161c2d;
+}
+
+#cls-testimonials button.cls-btn-badge {
+    color: #48b1fb;
+    background-color: #48b0fb14;
+}
+
+.cls-testimonial-card {
+    border: none;
+    transition: 0.3s;
+    padding: 30px;
+    border-radius: 20px;
+    background: #fff;
+}
+
+.cls-testimonial-card:hover {
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+}
+
+.cls-user-img img {
+    width: 80px;
+    height: 80px;
+    border-radius: 12px;
+}
+
+.cls-user-name {
+    padding: 15px 0 5px 0;
+    font-weight: 700;
+}
+
+.cls-review-text {
+    color: #707070;
+}
+
+.cls-star-rating i {
+    font-size: 14px;
+    color: #f2b827;
+}
+
+/* Responsive */
+@media (max-width: 576px) {
+    .cls-section-heading p.cls-section-subtitle {
+        width: 100% !important;
+    }
+
+    .cls-main-title {
+        font-size: 30px;
+    }
 }
